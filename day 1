@@ -1,0 +1,20 @@
+to my problem is how to revers the number 
+
+  #include <iostream>
+using namespace std ; 
+int main() {
+   
+int num , rem , rev ;
+cout << "enter number " << endl ;
+cin >> num ;
+
+for (num ;num>0;num=num/10)
+{
+    rem=num%10;
+    rev=rev*10+ rem ;
+
+}
+cout << "the revers of number is " << rev << endl ;
+
+    return 0;
+}
